@@ -10,3 +10,4 @@ class PostsController < ApplicationController
     Post.create(memo: params[:memo])
   end
 end
+
